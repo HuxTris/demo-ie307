@@ -16,7 +16,7 @@ const BACKEND_URL = "http://192.168.1.120:3000";
 export default function ProductScreen() {
   const router = useRouter();
   const [productName] = useState("Gói Premium");
-  const [amount] = useState(20000); // 20.000đ
+  const [amount] = useState(10000);
   const [isLoading, setIsLoading] = useState(false);
 
   const handlePayment = async () => {
